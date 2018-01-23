@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/e0cf826de84d4d37ebbef5d53b6bf5c8"
+    tools:context="com.example.alizainal.calculator.Calculator_Activity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="width"
+        android:id="@+id/txtwidth"
+        android:inputType="numberDecimal"
+        android:textColor="#000000"
+        android:background="#ffffff"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Long"
+        android:id="@+id/txtLong"
+        android:inputType="numberDecimal"
+        android:textColor="#000000"
+        android:background="#ffffff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginVertical="12dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="10dp"
+        android:text="COUNT"
+        android:id="@+id/txtCOUNT"/>
+
+    <TextView
+        android:id="@+id/txtRESULT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="RESULT"
+        android:textColor="#ffffff"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/calculator" />
+</LinearLayout>
